@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T11:58:54 IST" name="Default suite" finished-at="2024-04-02T12:03:21 IST" duration-ms="267441">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-02T11:58:54 IST" name="Default test" finished-at="2024-04-02T12:03:21 IST" duration-ms="267441">
+      <class name="runnerPack.RuunerFile">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T11:58:54 IST" name="setUpClass" finished-at="2024-04-02T11:58:54 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67784537]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T11:58:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-02T11:59:43 IST" duration-ms="48328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login to website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T11:59:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-02T12:00:21 IST" duration-ms="38200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login to website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T12:00:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-02T12:01:25 IST" duration-ms="63911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add members"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T12:01:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-02T12:02:09 IST" duration-ms="44521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logging out of the website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T12:02:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-02T12:02:36 IST" duration-ms="27058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UNUTHORIZED OTP"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T12:02:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-02T12:03:19 IST" duration-ms="43000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Using the need help"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerPack.RuunerFile@4b8d604b]" started-at="2024-04-02T12:03:19 IST" name="tearDownClass" finished-at="2024-04-02T12:03:21 IST" duration-ms="1928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerPack.RuunerFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

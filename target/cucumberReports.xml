@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="164.755" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Login to website" name="login to website - Example #1.1" time="26.239">
+<system-out><![CDATA[
+Given I want to login the website...........................................passed
+When I enter number as "6300512446".........................................passed
+And click continue..........................................................passed
+And enter otp...............................................................passed
+And click verify............................................................passed
+Then enter into the website.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to website" name="login to website - Example #1.2" time="45.299">
+<system-out><![CDATA[
+Given I want to login the website...........................................passed
+When I enter number as "9390380560".........................................passed
+And click continue..........................................................passed
+And enter otp...............................................................passed
+And click verify............................................................passed
+Then enter into the website.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to website" name="Add members" time="58.659">
+<system-out><![CDATA[
+Given I want to login the website...........................................passed
+When I enter number as "6300512446".........................................passed
+And click continue..........................................................passed
+And enter otp...............................................................passed
+And click verify............................................................passed
+Then enter into the website.................................................passed
+Given When i click on profile...............................................passed
+When i click on manage family members.......................................passed
+And i click add member......................................................passed
+And enter details...........................................................passed
+Then save the details.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to website" name="Logging out of the website" time="19.771">
+<system-out><![CDATA[
+Given I want to login the website...........................................passed
+When I enter number as "6300512446".........................................passed
+And click continue..........................................................passed
+And enter otp...............................................................passed
+And click verify............................................................passed
+Then enter into the website.................................................passed
+Given click on the profile..................................................passed
+When i click on logout......................................................passed
+Then logging out............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to website" name="UNUTHORIZED OTP" time="14.6">
+<system-out><![CDATA[
+Given I want to login the website...........................................passed
+When I enter phonenumber as "6300512446"....................................passed
+And click continue button...................................................passed
+And enter  wrong otp........................................................passed
+And click verify button.....................................................passed
+Then print the message......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
